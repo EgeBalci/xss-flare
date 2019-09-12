@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>XSS-FLARE</title>
+</head>
+<body>
+
+<div>
+
+
+	<h1 style="margin:.67em 0;font-size:36px;font-family:inherit;font-weight:500;line-height:1.1;color:inherit;margin-top:20px;margin-bottom:10px;">XSS-FLARE Report</h1>
+	The tracking ID for this report is <code style="font-family:Menlo, Monaco, Consolas, 'Courier New', monospace;font-size:90%;padding:2px 4px;color:#c7254e;background-color:#f9f2f4;">[ID]</code>, the triggering browser reports the time of execution to be [TIME].
+
+	<hr style="height:0;margin-top:20px;margin-bottom:20px;border:0;border-top:1px solid #eee;"><div class="panel panel-default" style="margin-bottom:20px;background-color:#fff;border:1px solid transparent;border-color:#ddd;">
+			<div class="panel-heading" style="padding:10px 15px;border-bottom:1px solid transparent;color:#333;background-color:#f5f5f5;border-color:#ddd;background-repeat:repeat-x;">
+				<h3 class="panel-title" style="font-family:inherit;font-weight:500;line-height:1.1;color:inherit;margin-top:0;margin-bottom:0;font-size:16px;">Vulnerable Page URL</h3>
+			</div>
+			<div class="panel-body" style="padding:15px;">
+				<a href="[URI]" style="background-color:transparent;color:#337ab7;text-decoration:underline;" rel="nofollow">[URI]</a>
+			</div>
+		</div>
+
+		<div class="panel panel-default" style="margin-bottom:20px;background-color:#fff;border:1px solid transparent;border-color:#ddd;">
+			<div class="panel-heading" style="padding:10px 15px;border-bottom:1px solid transparent;color:#333;background-color:#f5f5f5;border-color:#ddd;background-repeat:repeat-x;">
+				<h3 class="panel-title" style="font-family:inherit;font-weight:500;line-height:1.1;color:inherit;margin-top:0;margin-bottom:0;font-size:16px;">User IP Address</h3>
+			</div>
+			<div class="panel-body" style="padding:15px;">
+				<a href="http://www.ip-tracker.org/locator/ip-lookup.php?ip=[ORIGIN]" style="background-color:transparent;color:#337ab7;text-decoration:underline;" rel="nofollow">[ORIGIN]</a>
+			</div>
+		</div>
+
+		<div class="panel panel-default" style="margin-bottom:20px;background-color:#fff;border:1px solid transparent;border-color:#ddd;">
+			<div class="panel-heading" style="padding:10px 15px;border-bottom:1px solid transparent;color:#333;background-color:#f5f5f5;border-color:#ddd;background-repeat:repeat-x;">
+				<h3 class="panel-title" style="font-family:inherit;font-weight:500;line-height:1.1;color:inherit;margin-top:0;margin-bottom:0;font-size:16px;">Referer</h3>
+			</div>
+			<div class="panel-body" style="padding:15px;">
+				<a href="[REFERRER]" style="background-color:transparent;color:#337ab7;text-decoration:underline;" rel="nofollow">[REFERRER]</a>
+			</div>
+		</div>
+
+		<div class="panel panel-default" style="margin-bottom:20px;background-color:#fff;border:1px solid transparent;border-color:#ddd;">
+			<div class="panel-heading" style="padding:10px 15px;border-bottom:1px solid transparent;color:#333;background-color:#f5f5f5;border-color:#ddd;background-repeat:repeat-x;">
+				<h3 class="panel-title" style="font-family:inherit;font-weight:500;line-height:1.1;color:inherit;margin-top:0;margin-bottom:0;font-size:16px;">User-Agent</h3>
+			</div>
+			<div class="panel-body" style="padding:15px;">
+				<code style="font-family:Menlo, Monaco, Consolas, 'Courier New', monospace;font-size:90%;padding:2px 4px;color:#c7254e;background-color:#f9f2f4;">[USER-AGENT]</code>
+			</div>
+		</div>
+
+		<div class="panel panel-default" style="margin-bottom:20px;background-color:#fff;border:1px solid transparent;border-color:#ddd;">
+			<div class="panel-heading" style="padding:10px 15px;border-bottom:1px solid transparent;color:#333;background-color:#f5f5f5;border-color:#ddd;background-repeat:repeat-x;">
+				<h3 class="panel-title" style="font-family:inherit;font-weight:500;line-height:1.1;color:inherit;margin-top:0;margin-bottom:0;font-size:16px;">Cookies</h3>
+			</div>
+			<div class="panel-body" style="padding:15px;">
+				<code style="font-family:Menlo, Monaco, Consolas, 'Courier New', monospace;font-size:90%;padding:2px 4px;color:#c7254e;background-color:#f9f2f4;">[COOKIE]</code>
+			</div>
+        </div>
+
+		<div class="panel panel-default" style="margin-bottom:20px;background-color:#fff;border:1px solid transparent;border-color:#ddd;">
+			<div class="panel-heading" style="padding:10px 15px;border-bottom:1px solid transparent;color:#333;background-color:#f5f5f5;border-color:#ddd;background-repeat:repeat-x;">
+				<h3 class="panel-title" style="font-family:inherit;font-weight:500;line-height:1.1;color:inherit;margin-top:0;margin-bottom:0;font-size:16px;">Screenshot</h3>
+			</div>
+			<div class="panel-body" style="padding:15px;">
+				<pre class="pre-scrollable" style="padding:9.5px;margin:0 0 10px;font-size:1em;line-height:1.42857143;color:#333;background-color:#f5f5f5;border:1px solid #999;font-family:Menlo, Monaco, Consolas, 'Courier New', monospace;">
+					<img src="[SCREENSHOT]">
+				</pre>
+			</div>
+		</div>
+
+
+		<div class="panel panel-default" style="margin-bottom:20px;background-color:#fff;border:1px solid transparent;border-color:#ddd;">
+			<div class="panel-heading" style="padding:10px 15px;border-bottom:1px solid transparent;color:#333;background-color:#f5f5f5;border-color:#ddd;background-repeat:repeat-x;">
+				<h3 class="panel-title" style="font-family:inherit;font-weight:500;line-height:1.1;color:inherit;margin-top:0;margin-bottom:0;font-size:16px;">DOM</h3>
+			</div>
+			<div class="panel-body" style="padding:15px;">
+				<pre class="pre-scrollable" style="padding:9.5px;margin:0 0 10px;font-size:1em;line-height:1.42857143;color:#333;background-color:#f5f5f5;border:1px solid #999;font-family:Menlo, Monaco, Consolas, 'Courier New', monospace;">
+[DOM]
+				</pre>
+			</div>
+		</div>
+
+
+
+	</div>
+</body>
+</html>
